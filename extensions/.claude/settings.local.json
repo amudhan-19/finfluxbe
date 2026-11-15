@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Remove-Item -Force \"C:\\\\Users\\\\TICKMARKS\\\\OneDrive - tickandtie.com\\\\Documents\\\\extensions\\\\extensions\\\\trecon-reconciliation-writeback\\\\src\\\\Cod50204.TReconDirectPostHandler.al\")",
+      "Bash(Remove-Item -Force \"C:\\\\Users\\\\TICKMARKS\\\\OneDrive - tickandtie.com\\\\Documents\\\\extensions\\\\extensions\\\\trecon-reconciliation-writeback\\\\src\\\\Cod50205.TReconGenJournalPoster.al\")",
+      "Bash(Remove-Item -Force \"C:\\\\Users\\\\TICKMARKS\\\\OneDrive - tickandtie.com\\\\Documents\\\\extensions\\\\extensions\\\\trecon-reconciliation-writeback\\\\src\\\\Pag50200.TReconWritebackAPI.al\")",
+      "Bash(Remove-Item -Force \"C:\\\\Users\\\\TICKMARKS\\\\OneDrive - tickandtie.com\\\\Documents\\\\extensions\\\\extensions\\\\trecon-reconciliation-writeback\\\\src\\\\Pag50201.TReconAdjustmentJournalProposalAPI.al\")",
+      "Bash(Remove-Item -Force \"C:\\\\Users\\\\TICKMARKS\\\\OneDrive - tickandtie.com\\\\Documents\\\\extensions\\\\extensions\\\\trecon-reconciliation-writeback\\\\src\\\\Pag50202.TReconJournalPostingBatchAPI.al\")",
+      "Bash(cp -r 'C:/Users/TICKMARKS/OneDrive - tickandtie.com/Documents/extensions/extensions/trecon-reconciliation-writeback/src' 'C:/Users/TICKMARKS/OneDrive - tickandtie.com/Documents/extensions/extensions/src')",
+      "Bash(cp 'C:/Users/TICKMARKS/OneDrive - tickandtie.com/Documents/extensions/extensions/trecon-reconciliation-writeback/.alpackages/*.app' 'C:/Users/TICKMARKS/OneDrive - tickandtie.com/Documents/extensions/extensions/.alpackages/')",
+      "Bash(cp 'C:/Users/TICKMARKS/OneDrive - tickandtie.com/Documents/extensions/extensions/trecon-reconciliation-writeback/.vscode/launch.json' 'C:/Users/TICKMARKS/OneDrive - tickandtie.com/Documents/extensions/extensions/.vscode/launch.json')",
+      "Bash(cp 'C:/Users/TICKMARKS/OneDrive - tickandtie.com/Documents/extensions/extensions/trecon-reconciliation-writeback/.vscode/settings.json' 'C:/Users/TICKMARKS/OneDrive - tickandtie.com/Documents/extensions/extensions/.vscode/settings.json')",
+      "Bash(cp 'C:/Users/TICKMARKS/OneDrive - tickandtie.com/Documents/extensions/extensions/trecon-reconciliation-writeback/.vscode/ruleset.json' 'C:/Users/TICKMARKS/OneDrive - tickandtie.com/Documents/extensions/extensions/.vscode/ruleset.json')"
+    ]
+  }
+}
