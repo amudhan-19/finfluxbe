@@ -186,27 +186,27 @@ INSERT INTO caption_versions (entity_id, caption, version) VALUES
 -- TASKS
 -- ============================================================
 INSERT INTO tasks (entity_id, title, description, assignee_id, due_date, status, priority, phase, created_at) VALUES
-('ACM-US','Post journal entries',   'All JEs for month-end accruals, prepaid amortization, and intercompany',1,'2026-04-08','done',       'high',    'Recording','2026-04-01 09:00:00'),
-('ACM-US','Run TB & reconciliations','Trial balance extraction, bank recs, AR/AP aging, fixed assets',       1,'2026-04-10','done',       'high',    'Recording','2026-04-01 09:00:00'),
-('ACM-US','Prepare flux — P&L',     'P&L variance analysis with AI commentary generation',                   1,'2026-04-14','in_progress','high',    'Analysis', '2026-04-01 09:00:00'),
-('ACM-US','Prepare flux — BS',      'Balance sheet flux with materiality review',                            1,'2026-04-15','in_progress','medium',  'Analysis', '2026-04-01 09:00:00'),
-('ACM-US','AI commentary review',   'Review all AI-generated variance commentary for accuracy',              5,'2026-04-18','pending',    'high',    'Review',   '2026-04-01 09:00:00'),
-('ACM-US','Supervisor sign-off',    'Final review and sign-off on flux package',                             5,'2026-04-18','pending',    'critical','Review',   '2026-04-01 09:00:00'),
-('ACM-UK','Post journal entries',   'All month-end JEs including FX revaluation',                            1,'2026-04-09','done',       'high',    'Recording','2026-04-01 09:00:00'),
-('ACM-UK','FX revaluation adjustments','GBP/USD translation entries per closing rate',                      1,'2026-04-12','in_progress','critical','Recording','2026-04-01 09:00:00'),
-('ACM-UK','Prepare flux — P&L',     'P&L analysis with FX impact segregation',                              1,'2026-04-16','todo',       'medium',  'Analysis', '2026-04-01 09:00:00'),
-('ACM-UK','Supervisor review',      'Review flux with macro factor overlay',                                 5,'2026-04-22','todo',       'high',    'Review',   '2026-04-01 09:00:00'),
-('BET-US','Intercompany eliminations','Review and post IC elimination entries for 6 subs',                   3,'2026-04-10','done',       'critical','Recording','2026-04-01 09:00:00'),
-('BET-US','Prepare consolidation flux','Consolidated P&L and BS flux analysis',                             3,'2026-04-12','done',       'high',    'Analysis', '2026-04-01 09:00:00'),
-('BET-US','Supervisor review',      'Review flux and prepare for director',                                  5,'2026-04-16','in_progress','high',    'Review',   '2026-04-01 09:00:00'),
-('BET-US','Director approval',      'Lisa Wang final sign-off on consolidation',                             7,'2026-04-20','pending',    'critical','Approval', '2026-04-01 09:00:00'),
-('ACM-DE','Post entries & TB',      '',                                                                       4,'2026-04-14','in_progress','medium',  'Recording','2026-04-01 09:00:00'),
-('ACM-DE','Prepare flux analysis',  '',                                                                       4,'2026-04-20','todo',       'medium',  'Analysis', '2026-04-01 09:00:00'),
-('ACM-CA','Journal entries',        '',                                                                       2,'2026-04-10','done',       'medium',  'Recording','2026-04-01 09:00:00'),
-('ACM-CA','Prepare flux — P&L',     '',                                                                       2,'2026-04-18','in_progress','high',    'Analysis', '2026-04-01 09:00:00'),
-('ACM-IN','Post entries',           '',                                                                       3,'2026-04-08','done',       'medium',  'Recording','2026-04-01 09:00:00'),
-('ACM-IN','Run reconciliations',    '',                                                                       1,'2026-04-12','in_progress','high',    'Recording','2026-04-01 09:00:00'),
-('ACM-IN','Prepare flux',           '',                                                                       3,'2026-04-16','todo',       'medium',  'Analysis', '2026-04-01 09:00:00');
+('ACM-US','Post journal entries',   'All JEs for month-end accruals, prepaid amortization, and intercompany',1,'2026-04-08','done',       'high',    'preparation','2026-04-01 09:00:00'),
+('ACM-US','Run TB & reconciliations','Trial balance extraction, bank recs, AR/AP aging, fixed assets',       1,'2026-04-10','done',       'high',    'preparation','2026-04-01 09:00:00'),
+('ACM-US','Prepare flux — P&L',     'P&L variance analysis with AI commentary generation',                   1,'2026-04-14','in_progress','high',    'preparation','2026-04-01 09:00:00'),
+('ACM-US','Prepare flux — BS',      'Balance sheet flux with materiality review',                            1,'2026-04-15','in_progress','medium',  'preparation','2026-04-01 09:00:00'),
+('ACM-US','AI commentary review',   'Review all AI-generated variance commentary for accuracy',              5,'2026-04-18','pending',    'high',    'review',     '2026-04-01 09:00:00'),
+('ACM-US','Supervisor sign-off',    'Final review and sign-off on flux package',                             5,'2026-04-18','pending',    'critical','review',     '2026-04-01 09:00:00'),
+('ACM-UK','Post journal entries',   'All month-end JEs including FX revaluation',                            1,'2026-04-09','done',       'high',    'preparation','2026-04-01 09:00:00'),
+('ACM-UK','FX revaluation adjustments','GBP/USD translation entries per closing rate',                      1,'2026-04-12','in_progress','critical','preparation','2026-04-01 09:00:00'),
+('ACM-UK','Prepare flux — P&L',     'P&L analysis with FX impact segregation',                              1,'2026-04-16','todo',       'medium',  'preparation','2026-04-01 09:00:00'),
+('ACM-UK','Supervisor review',      'Review flux with macro factor overlay',                                 5,'2026-04-22','todo',       'high',    'review',     '2026-04-01 09:00:00'),
+('BET-US','Intercompany eliminations','Review and post IC elimination entries for 6 subs',                   3,'2026-04-10','done',       'critical','preparation','2026-04-01 09:00:00'),
+('BET-US','Prepare consolidation flux','Consolidated P&L and BS flux analysis',                             3,'2026-04-12','done',       'high',    'preparation','2026-04-01 09:00:00'),
+('BET-US','Supervisor review',      'Review flux and prepare for director',                                  5,'2026-04-16','in_progress','high',    'review',     '2026-04-01 09:00:00'),
+('BET-US','Director approval',      'Lisa Wang final sign-off on consolidation',                             7,'2026-04-20','pending',    'critical','approval',   '2026-04-01 09:00:00'),
+('ACM-DE','Post entries & TB',      '',                                                                       4,'2026-04-14','in_progress','medium',  'preparation','2026-04-01 09:00:00'),
+('ACM-DE','Prepare flux analysis',  '',                                                                       4,'2026-04-20','todo',       'medium',  'preparation','2026-04-01 09:00:00'),
+('ACM-CA','Journal entries',        '',                                                                       2,'2026-04-10','done',       'medium',  'preparation','2026-04-01 09:00:00'),
+('ACM-CA','Prepare flux — P&L',     '',                                                                       2,'2026-04-18','in_progress','high',    'preparation','2026-04-01 09:00:00'),
+('ACM-IN','Post entries',           '',                                                                       3,'2026-04-08','done',       'medium',  'preparation','2026-04-01 09:00:00'),
+('ACM-IN','Run reconciliations',    '',                                                                       1,'2026-04-12','in_progress','high',    'preparation','2026-04-01 09:00:00'),
+('ACM-IN','Prepare flux',           '',                                                                       3,'2026-04-16','todo',       'medium',  'preparation','2026-04-01 09:00:00');
 
 -- ============================================================
 -- TASK REMINDERS

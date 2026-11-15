@@ -948,8 +948,8 @@ CREATE TABLE IF NOT EXISTS quickbooks_credentials (
 -- ── Notifications ──────────────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS notifications (
     id                  INT             NOT NULL AUTO_INCREMENT,
-    recipient_user_id   INT             NOT NULL,
-    actor_user_id       INT             NULL,
+    recipient_user_id   INT UNSIGNED    NOT NULL,
+    actor_user_id       INT UNSIGNED    NULL,
     entity_id           VARCHAR(20)     NULL,
     type                VARCHAR(60)     NOT NULL,
     title               VARCHAR(200)    NOT NULL,
